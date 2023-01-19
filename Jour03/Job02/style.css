@@ -1,0 +1,39 @@
+#mix-puzzle{
+    display : flex;
+    width:40%;
+    
+}
+
+#button{
+    width:50%;
+    height:50px;
+    background-color: rgb(106, 123, 218);
+}
+
+#button p{
+    font-size:1.2em;
+    text-transform: uppercase;
+    color: aliceblue;
+
+}
+
+#puzzle{
+    background-color: aquamarine;
+    height:460px;
+    display : flex;
+}
+
+#victory{
+margin:20px;
+
+}
+
+#victory p{
+    font-size:2em;
+}
+
+.arc{
+    margin-left:1px;
+    height:50%;
+}
+    
