@@ -1,0 +1,80 @@
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css"  href="style.css" />
+        <meta http-equiv="x-ua-compatible" content="IE=edge" />
+        
+        <title>Job01</title>
+        
+    </head>
+
+    <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li ><a href="index.html">Inscription</a></li>
+                <li><a href="index.html">Connexion</a></li>
+                <li><a href="index.html">Rechercher</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <legend>Civilité : </legend>
+            <div>
+            <input type="radio" id="Mr" name="civil" value="Mr"
+                    checked>
+            <label for="Mr">Monsieur</label>
+            </div>
+            <div>
+            <input type="radio" id="Md" name="civil" value="Md">
+            <label for="Md">Madame</label>
+            </div>
+            <label for="prenom">Prénom:</label>
+            <input type="text" id="prenom" name="prenom" required minlength="2"
+            >
+            <label for="nom">Nom:</label>
+            <input type="text" id="Nom" name="Nom" required minlength="2">
+            <label for="address">Adresse:</label>
+            <input type="text" id="adresse" name="adresse" required minlength="2">
+            <label for="email">Entrer votre email:</label>
+            <input type="email" id="email" name="email">
+            <label for="mp">Mot de passe:</label>
+            <input type="password" id="mp" name="mp" required minlength="8">
+            <legend>Passions : </legend>
+            <div id="passion" >
+                <input type="checkbox" id="passion" name="passion" value="passion"
+                        checked>
+                <label for="passion">Tennis</label>
+                <input type="checkbox" id="passion" name="passion" value="passion"
+                checked>
+                <label for="passion">Randonnée</label>
+                <input type="checkbox" id="passion" name="passion" value="passion"
+                checked>
+                <label for="passion">Art</label>
+                <input type="checkbox" id="passion" name="passion" value="passion"
+                checked>
+                <label for="passion">Sport de combat</label>
+                <input type="checkbox" id="passion" name="passion" value="passion"
+                checked>
+                <label for="passion">Programmation informatique</label>
+            </div>
+            <input type="submit" value="Envoyer le formulaire">
+
+        </form>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li ><a href="index.html">Inscription</a></li>
+                <li><a href="index.html">Connexion</a></li>
+                <li><a href="index.html">Rechercher</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script type="text/javascript" src="script.js"></script> 
+
+
+    </body>
