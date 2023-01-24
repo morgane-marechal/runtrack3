@@ -1,0 +1,57 @@
+body{
+    background-color:rgb(221, 220, 165) ;
+}
+nav{
+    position: sticky;
+    height: 100px;
+    background-color: rgb(10, 56, 56);
+    display: flex;
+    align-items: center;
+    font-family: 'Poor Story', cursive;
+}
+
+
+.menu ul {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+	list-style: none;
+	width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.menu ul, .menu li {
+	margin: 0;
+	padding: 2% 0% 0% 0%;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+
+.menu li:hover{
+    animation-name: colorMenu;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.menu a{
+    text-decoration: none;    
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    
+}
+
+label
+{
+    display: none;
+}
+
+label, #toggle
+{
+    display: none;
+}
